@@ -8,11 +8,7 @@ Claude Code plugin for converting HWP (Korean word processor) documents to Markd
 claude plugin install docpler/docpler-claude-plugin
 ```
 
-After installing, run the setup script to download the binary:
-
-```bash
-bash ~/.claude/plugins/cache/docpler/scripts/install.sh
-```
+The binary for your platform is automatically downloaded during installation.
 
 ## Usage
 
@@ -41,11 +37,7 @@ HWP(한글 워드프로세서) 문서를 Markdown으로 변환하는 Claude Code
 claude plugin install docpler/docpler-claude-plugin
 ```
 
-설치 후 바이너리 다운로드:
-
-```bash
-bash ~/.claude/plugins/cache/docpler/scripts/install.sh
-```
+설치 시 플랫폼에 맞는 바이너리가 자동으로 다운로드됩니다.
 
 ## 사용법
 

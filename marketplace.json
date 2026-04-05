@@ -1,0 +1,13 @@
+{
+  "name": "docpler",
+  "owner": {
+    "name": "RightStack Co., Ltd."
+  },
+  "plugins": [
+    {
+      "name": "docpler",
+      "source": ".",
+      "description": "Convert Korean HWP documents to Markdown"
+    }
+  ]
+}

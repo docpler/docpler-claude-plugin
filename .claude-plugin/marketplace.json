@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "docpler",
-      "source": ".",
+      "source": "./",
       "description": "Convert Korean HWP documents to Markdown"
     }
   ]

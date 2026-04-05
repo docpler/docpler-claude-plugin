@@ -9,5 +9,16 @@
   "repository": "https://github.com/docpler/docpler-claude-plugin",
   "license": "MIT",
   "keywords": ["hwp", "markdown", "korean", "document", "converter"],
-  "postInstall": "bash ${CLAUDE_PLUGIN_ROOT}/scripts/install.sh"
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/scripts/install.sh"
+          }
+        ]
+      }
+    ]
+  }
 }

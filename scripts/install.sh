@@ -4,6 +4,11 @@ set -euo pipefail
 REPO="docpler/docpler-cli"
 BIN_DIR="${CLAUDE_PLUGIN_ROOT:-$(dirname "$(dirname "$0")")}/bin"
 
+# Skip if already installed
+if [ -x "${BIN_DIR}/docpler" ]; then
+  exit 0
+fi
+
 # Get latest version from GitHub API
 VERSION=$(curl -fsSL "https://api.github.com/repos/${REPO}/releases/latest" | grep '"tag_name"' | sed 's/.*: "//;s/".*//')
 

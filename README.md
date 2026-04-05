@@ -50,7 +50,7 @@ claude plugin install docpler/docpler-claude-plugin
 
 ## License
 
-MIT
+[Business Source License 1.1 (BSL 1.1)](https://mariadb.com/bsl11/) — Free to use, cannot be provided as a managed service. Converts to Apache 2.0 on 2031-04-05.
 
 ## HWP Format Notice
 

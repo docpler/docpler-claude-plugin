@@ -1,13 +1,13 @@
 {
   "name": "docpler",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Convert Korean HWP documents to Markdown",
   "author": {
     "name": "docpler",
     "url": "https://github.com/docpler"
   },
   "repository": "https://github.com/docpler/docpler-claude-plugin",
-  "license": "MIT",
+  "license": "BSL-1.1",
   "keywords": ["hwp", "markdown", "korean", "document", "converter"],
   "hooks": {
     "SessionStart": [

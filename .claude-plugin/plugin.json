@@ -7,7 +7,7 @@
     "url": "https://github.com/docpler"
   },
   "repository": "https://github.com/docpler/docpler-claude-plugin",
-  "license": "BSL-1.1",
+  "license": "Elastic-2.0",
   "keywords": ["hwp", "markdown", "korean", "document", "converter"],
   "hooks": {
     "SessionStart": [
